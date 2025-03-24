@@ -1,0 +1,76 @@
+/* ===================================
+========= register page  */
+.form-container {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  flex-direction: column;
+  background-color: #ffdee9;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/001/984/840/original/abstract-dark-blue-waves-background-free-vector.jpg');
+}
+
+.form-container form {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.075);
+  backdrop-filter: blur(10px);
+}
+
+.form-container form .title {
+  text-align: center;
+  margin-bottom: 15px;
+  /* font-weight: bold; */
+  color: white;
+  /* font-family: "Playfair Display", serif; */
+  border-radius: 8px;
+}
+
+.form-container form input {
+  border: none;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+  /* text-decoration: white; */
+  background-color: rgba(255, 255, 255, 0.703);
+  /* background: transparent; */
+  /* border-radius: 8px; */
+}
+
+.form-container form button {
+  border: 1px solid black;
+  border-radius: 0;
+  background-color: #000;
+  color: white;
+  width: 250px;
+  /* border-radius: 8px; */
+}
+
+.form-container form button:hover {
+  border: 1px solid black;
+  background: #000000; /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.forgot-btn {
+  background-color: rgba(255, 255, 255, 0.121) !important;
+  border: 1px solid rgba(255, 255, 255, 0.438) !important;
+  /* border: 0 !important; */
+}
+
+.forgot-btn:hover {
+  color: white !important;
+  background-color: black !important;
+  transition: all .5s !important;
+}
