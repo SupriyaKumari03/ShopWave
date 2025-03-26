@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "proxy": "https://shopwave-pr6m.onrender.com/",
+  "proxy": "https://shopwave-sp36.onrender.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
