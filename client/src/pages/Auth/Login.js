@@ -5,7 +5,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import toast from "react-hot-toast";
 import "../../styles/AuthStyles.css";
 import { useAuth } from "../../context/auth";
-axios.defaults.baseURL = "https://shopwave-pr6m.onrender.com";
+axios.defaults.baseURL = "https://shopwave-sp36.onrender.com";
 
 const Login = () => {
   const [email, setEmail] = useState("");

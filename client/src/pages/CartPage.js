@@ -8,7 +8,7 @@ import { AiFillWarning } from "react-icons/ai";
 import axios from "axios";
 import toast from "react-hot-toast";
 import "../styles/CartStyles.css";
-axios.defaults.baseURL = "https://shopwave-pr6m.onrender.com";
+axios.defaults.baseURL = "https://shopwave-sp36.onrender.com";
 
 const CartPage = () => {
   const [auth, setAuth] = useAuth();
@@ -104,7 +104,7 @@ const CartPage = () => {
                 <div className="row card flex-row" key={p._id}>
                   <div className="col-md-4">
                     <img
-                      src={`https://shopwave-pr6m.onrender.com/api/v1/product/product-photo/${p._id}`}
+                      src={`https://shopwave-sp36.onrender.com/api/v1/product/product-photo/${p._id}`}
                       className="card-img-top"
                       alt={p.name}
                       width="100%"

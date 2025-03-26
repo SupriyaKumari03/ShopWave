@@ -1,6 +1,6 @@
 import { useState, useEffect, useContext, createContext } from "react";
 import axios from "axios";
-axios.defaults.baseURL = "https://shopwave-pr6m.onrender.com";
+axios.defaults.baseURL = "https://shopwave-sp36.onrender.com";
 
 
 const AuthContext = createContext();

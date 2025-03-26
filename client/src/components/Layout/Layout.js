@@ -28,7 +28,7 @@ Layout.defaultProps = {
   title: "ShopWave",
   description: "mern stack project",
   keywords: "mern,react,node,mongodb",
-  author: "Joy",
+  author: "Supriya",
 };
 
 export default Layout;

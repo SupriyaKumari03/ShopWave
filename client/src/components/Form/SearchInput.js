@@ -2,7 +2,7 @@ import React from "react";
 import { useSearch } from "../../context/search";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-axios.defaults.baseURL = "https://shopwave-pr6m.onrender.com";
+axios.defaults.baseURL = "https://shopwave-sp36.onrender.com";
 
 const SearchInput = () => {
   const [values, setValues] = useSearch();

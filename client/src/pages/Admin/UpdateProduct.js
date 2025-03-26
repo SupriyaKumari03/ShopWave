@@ -153,7 +153,7 @@ const UpdateProduct = () => {
                 ) : (
                   <div className="text-center">
                     <img
-                      src={`https://shopwave-pr6m.onrender.com/api/v1/product/product-photo/${id}`}
+                      src={`https://shopwave-sp36.onrender.com/api/v1/product/product-photo/${id}`}
                       alt="product_photo"
                       height={"200px"}
                       className="img img-responsive"

@@ -3,7 +3,7 @@ import Layout from "./../components/Layout/Layout";
 import axios from "axios";
 import { useParams, useNavigate } from "react-router-dom";
 import "../styles/ProductDetailsStyles.css";
-axios.defaults.baseURL = "https://shopwave-pr6m.onrender.com";
+axios.defaults.baseURL = "https://shopwave-sp36.onrender.com";
 
 
 const ProductDetails = () => {
@@ -44,7 +44,7 @@ const ProductDetails = () => {
       <div className="row container product-details">
         <div className="col-md-6">
           <img
-            src={`https://shopwave-pr6m.onrender.com/api/v1/product/product-photo/${product._id}`}
+            src={`https://shopwave-sp36.onrender.com/api/v1/product/product-photo/${product._id}`}
             className="card-img-top"
             alt={product.name}
             height="300"
@@ -77,7 +77,7 @@ const ProductDetails = () => {
           {relatedProducts?.map((p) => (
             <div className="card m-2" key={p._id}>
               <img
-                src={`https://shopwave-pr6m.onrender.com/api/v1/product/product-photo/${p._id}`}
+                src={`https://shopwave-sp36.onrender.com/api/v1/product/product-photo/${p._id}`}
                 className="card-img-top"
                 alt={p.name}
               />
